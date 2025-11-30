@@ -1,5 +1,5 @@
 # lifegraph
-LifeGraph OS: Integrated System Architecture
+# LifeGraph OS: Integrated System Architecture
 
 LifeGraph OS operates as a distributed, browser-native cognitive virtual machine. At the computational foundation, WebGPU provides high-throughput parallel execution for neural and tensor workloads, while WebAssembly hosts high-performance kernels for graph transforms, cryptographic operations, and other non-tensor compute. Where available, WebNN and ONNX Runtime Web extend this layer by routing neural workloads to device-specific accelerators such as GPUs and NPUs, supporting models exported from heterogeneous training frameworks. Each browser node thus becomes a fully local, hardware-accelerated AI runtime.
 
@@ -15,7 +15,7 @@ For large artifacts, long-lived models, or immutable knowledge modules, LifeGrap
 
 Together, these layers form a unified, mutation-capable cognitive architecture in which compute, reasoning, orchestration, data synchronization, ingestion, and semantic memory operate as an integrated system inside the browser. Each user device participates as a node of a decentralized virtual machine whose freely mutating memory graph can grow, reorganize, and accumulate patterns over years, functioning as both a second brain for the human and a research substrate for emergent digital cognition.
 
-User Interface Architecture
+# User Interface Architecture
 
 The UI layer of LifeGraph OS is designed as a single unified command surface centered entirely around a chat-first main page. All system functionality is accessed through natural-language commands, making the interface act as the user’s primary cognitive terminal. Around this central surface, only a minimal set of modular components are invoked on demand, without sidebars, dashboards, or separate application zones.
 
@@ -29,7 +29,7 @@ All components converge into the chat interface, forming a unified cognitive com
 
 LifeGraph OS inherits the core advantages of decentralized architecture. Because all computation runs on the user’s own device and all state is maintained through peer-to-peer CRDT replication, the system has no central servers, no backend infrastructure, and therefore no operational scaling costs even at global scale. Hosting requires only a static build of the application, which can be mirrored indefinitely at negligible expense. This also makes the platform structurally resilient: with no central point of control and no server-side dependencies, the system is extremely difficult to block or censor. LifeGraph OS remains accessible and functional as long as users can access a browser, making it a robust, cost-free, and globally persistent cognitive environment by design.
 
-Technology Stack Reference:
+# Open Source Technology Stack Reference:
 Core Compute Layer:
 WebGPU: https://github.com/gpuweb/gpuweb
 WebAssembly (Binaryen): https://github.com/WebAssembly/binaryen
