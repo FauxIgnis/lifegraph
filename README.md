@@ -1,5 +1,5 @@
 # LifeGraph
-# LifeGraph OS: Integrated System Architecture
+# LifeGraph: Integrated System Architecture
 
 LifeGraph OS operates as a distributed, browser-native cognitive virtual machine. At the computational foundation, WebGPU provides high-throughput parallel execution for neural and tensor workloads, while WebAssembly hosts high-performance kernels for graph transforms, cryptographic operations, and other non-tensor compute. Where available, WebNN and ONNX Runtime Web extend this layer by routing neural workloads to device-specific accelerators such as GPUs and NPUs, supporting models exported from heterogeneous training frameworks. Each browser node thus becomes a fully local, hardware-accelerated AI runtime.
 
